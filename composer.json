@@ -1,12 +1,12 @@
 {
-  "name": "benaspaulikas/yii2-forum",
-  "description": "Forum module for Yii2",
+  "name": "damulhan/yeecms-board",
+  "description": "Board module for Yii2",
   "type": "yii2-extension",
   "authors": [
     {
-      "name": "Benas Paulikas",
-      "email": "benas@paulikas.eu",
-      "homepage": "http://paulikas.eu"
+      "name": "Eui-taik Na",
+      "email": "damulhan@gmail.com",
+      "homepage": ""
     }
   ],
   "require": {
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "benaspaulikas\\forum\\": ""
+      "modules\\board\\": "modules/board"
     }
   }
 }
