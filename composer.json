@@ -1,0 +1,23 @@
+{
+  "name": "benaspaulikas/yii2-forum",
+  "description": "Forum module for Yii2",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Benas Paulikas",
+      "email": "benas@paulikas.eu",
+      "homepage": "http://paulikas.eu"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "kartik-v/yii2-grid": "^3.1",
+    "yiidoc/yii2-redactor": "^2.0",
+    "asofter/yii2-imperavi-redactor": "^0.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "benaspaulikas\\forum\\": ""
+    }
+  }
+}
